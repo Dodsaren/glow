@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider, createTheme, Arwes, Words, Heading } from 'arwes'
+import './index.css'
+import S from './app.module.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={createTheme}>
+      <Arwes
+        animate
+        background='https://www.pixelstalk.net/wp-content/uploads/images2/Abstract-Dark-Minimalist-Wallpaper.jpg'
+      >
+        {(anim) => (
+          <div className={S.main}>
+            <Heading
+              animate
+              style={{ padding: '1rem', textAlign: 'center' }}
+              node='h1'
+            >
+              <Words animate show={anim.entered}>
+                Internets programmering & charkuteri
+              </Words>
+            </Heading>
+          </div>
+        )}
+      </Arwes>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
