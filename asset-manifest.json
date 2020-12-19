@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/glow/static/css/main.e085b650.chunk.css",
+    "main.js": "/glow/static/js/main.f84b2ec9.chunk.js",
+    "main.js.map": "/glow/static/js/main.f84b2ec9.chunk.js.map",
+    "runtime-main.js": "/glow/static/js/runtime-main.f7eb1174.js",
+    "runtime-main.js.map": "/glow/static/js/runtime-main.f7eb1174.js.map",
+    "static/js/2.9b401082.chunk.js": "/glow/static/js/2.9b401082.chunk.js",
+    "static/js/2.9b401082.chunk.js.map": "/glow/static/js/2.9b401082.chunk.js.map",
+    "static/js/3.0e13bee2.chunk.js": "/glow/static/js/3.0e13bee2.chunk.js",
+    "static/js/3.0e13bee2.chunk.js.map": "/glow/static/js/3.0e13bee2.chunk.js.map",
+    "index.html": "/glow/index.html",
+    "static/css/main.e085b650.chunk.css.map": "/glow/static/css/main.e085b650.chunk.css.map",
+    "static/js/2.9b401082.chunk.js.LICENSE.txt": "/glow/static/js/2.9b401082.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7eb1174.js",
+    "static/js/2.9b401082.chunk.js",
+    "static/css/main.e085b650.chunk.css",
+    "static/js/main.f84b2ec9.chunk.js"
+  ]
+}
