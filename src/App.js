@@ -17,7 +17,7 @@ function App() {
               node='h1'
             >
               <Words animate show={anim.entered}>
-                Internets programmering & charkuteri
+                jims programmering & chark
               </Words>
             </Heading>
           </div>
